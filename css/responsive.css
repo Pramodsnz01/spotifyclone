@@ -1,0 +1,209 @@
+@media (max-width:1300px) {
+    .left {
+        position: absolute;
+        left: -110%;
+        transition: all .3s;
+        z-index: 1;
+        width: 410px;
+        background-color: black;
+
+    }
+    
+    .left .close {
+        display: block;
+        position: absolute;
+        right: 10px;
+    }
+
+    .library {
+        min-height: 75vh;
+    }
+
+    .right {
+        width: 100vw;
+    }
+
+    .playbar {
+        left: 0;
+        width: 95vw;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+     
+    .top-right .buttons button {
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    .buttons{
+        top: 16px;
+        position: absolute;
+        transition: all .3s;
+        z-index: 1;
+        width: 23%;
+        right: 0;
+        opacity: 1; 
+    }
+
+    .songInfo {
+        width: 300px;
+    }
+
+    .songTime {
+        width: auto;
+    }
+
+    .top-mid { 
+        align-items: center;
+        margin-right: 100px;
+        gap: 20px;
+        width: 50%;
+    }
+    .top-mid a{
+        margin-top: 10px;
+    }
+    .top-mid .homeImg {
+        display: none;
+    }
+    .input-container {
+        width: 350px;
+    }
+
+    .input-container input {
+        padding: 10px 45px 10px 45px;
+        height: 28px;
+    }
+
+    .input-container .left-icon {
+        left: 10px;
+    }
+
+    .input-container .right-icon {
+        right: 10px;
+    }
+
+    .suggestions {
+        max-height: 150px;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .left {
+        width: 95vw;
+    }
+
+    .songList ul li{
+        gap: 10px;
+        padding: 5px;
+    }
+    .library {
+        min-height: 75vh;
+    }
+
+    .right {
+        margin: 0; 
+    }
+    .buttons{
+        width: 32%; 
+        top: 22px;
+        right: 0;
+    }
+
+    .card {
+        width: 80vw;
+        padding: 30px;
+    }
+    .cardContainer{
+        max-height: unset;
+        margin-bottom: 25vh;
+    }
+    .seekbar {
+        width: 92%;
+    }
+
+    .playbar {
+        left: 12px;
+        height: 127px;
+        width: 87vw;
+        z-index: 2;
+    }
+
+    .controlBar {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .footer {
+        margin-top: 15px;
+    }
+
+    .songInfo,
+    .songTime {
+        width: auto;
+    }
+
+    .timeVol {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    /* .top-left h3 {
+        display: none;
+    } */
+
+    .top-mid {
+        margin-top: 25px;
+        margin-right: 66px;  
+        gap: 15px;
+        width: 66%;
+    }
+
+    .input-container {
+        width: 65%;
+        bottom: 11px;
+    }
+
+    .input-container input {
+        padding: 10px 40px 10px 40px;
+        height: 26px;
+        margin-top: -7px;
+    }
+
+    .input-container .left-icon {
+        left: 8px;
+    }
+
+    .input-container .right-icon {
+        right: 8px;
+    }
+    input[type=range]{
+        width: 78%;
+    }
+
+    .suggestions {
+        max-height: 120px;
+    }  
+    
+    
+
+    .suggestions {
+        max-height: 100px;
+    }
+
+    .suggestion-item {
+        padding: 6px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+    .card {
+        width: 35vw;
+        padding: 30px;
+    }
+}

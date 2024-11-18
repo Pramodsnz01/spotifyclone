@@ -1,0 +1,169 @@
+.right {
+    margin: 15px 0;
+    width: 75vw;
+    position: relative;
+}
+
+.playlistHeader {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+    width: 40px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.playlistHeader h1 {
+    padding: 16px;
+}
+
+.spotifyPlaylist {
+
+    padding: 0 16px 0 16px;
+    font-weight: normal;
+    font-size: 13px;
+
+}
+
+.cardContainer {
+
+    margin-top: 15px;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+.card { 
+    width: 258px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover {
+    background-color: #252525;
+}
+
+.card>* {
+    padding-top: 10px;
+}
+
+.card img {
+    border-radius: 15px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.play {
+    position: absolute;
+    top: 168px;
+    right: 17px;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+}
+
+.card:hover .play {
+    top: 155px;
+    opacity: 1;
+}
+ 
+.playbar {
+    position: fixed;
+    bottom: 20px;
+    width: 62vw;
+    padding: 15px;
+    filter: invert(1);
+    background-color: #dad5da;
+    border-radius: 30px;
+    height: 36px;
+}
+
+.songButtons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.songButtons img {
+    cursor: pointer;
+}
+
+.seekbar {
+    height: 4px;
+    width: 96%;
+    background: #e1289f;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 6px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 13px;
+    background-color: #e1289f;
+    position: relative;
+    bottom: 7px;
+    left: 0%;
+    transition: left 0.5s;
+}
+
+.controlBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timeVol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.songInfo,
+.songTime {
+    color: black;
+    padding: 0 10px;
+}
+.songInfo {
+    width: 270px;
+}
+
+.songTime {
+    width: 85px;
+}
+.volume{
+    display: flex; 
+    justify-content: center ;
+    align-items: center ;
+    gap: 10px;
+    cursor: pointer;
+}
+input[type=range] {
+    -webkit-appearance: none;  
+    appearance: none;
+    top: 10px;
+    width: 100%; 
+    height: 5px; /* Track height */
+    background: rgb(145, 145, 145);  
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: rgb(145, 145, 145); /* Greenish color for thumb */
+    border-radius: 50%;
+    cursor: pointer;
+  }
+

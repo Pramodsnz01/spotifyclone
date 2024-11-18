@@ -1,0 +1,8 @@
+<svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Circular background -->
+    <circle cx="12" cy="12" r="12" fill="#222"/>
+    
+    <!-- Home icon (further scaled down) -->
+    <path d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z" fill="white" transform="scale(0.5) translate(12, 12)"/>
+  </svg>
+  
