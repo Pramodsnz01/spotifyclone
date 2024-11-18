@@ -43,7 +43,7 @@ Icons by FontAwesome, Hugeicons.<br>
 Special thanks to open-source contributors and tutorials.<br>
 <br>
 📬 Contact
-Feel free to reach out for any questions or collaboration opportunities:
-Name: Pramod Singh
-Email: pramodsnz01@gmail.com
-GitHub: @Pramodsnz01
+Feel free to reach out for any questions or collaboration opportunities:<br>
+Name: Pramod Singh<br>
+Email: pramodsnz01@gmail.com<br>
+GitHub: @Pramodsnz01 
