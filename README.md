@@ -1,6 +1,6 @@
 Spotify Clone 🎵
 <br>
-A full-stack Spotify-like music streaming application with modern design and features such as playlists, song search, and playback controls.
+A Spotify-like music streaming application with modern design and features such as playlists, song search, and playback controls.
 <br>
 🚀 Features<br>
 🎶 Music Playback: Stream and control music with play, pause, and seek functionalities.<br>
